@@ -24,7 +24,7 @@ body {
 
 #container {
   position: relative;
-  height: 100%;
+  height: 90%;
   width: 100%;
   border-radius: 10px;
   background: url("./images/banner.png");
@@ -39,28 +39,29 @@ body {
 
 #container .upper_div img {
   position: absolute;
-  left: 15%;
+  left: 19%;
+  top: 3%;
 }
 
 #container .upper_div span {
   font-size: 35px;
   position: absolute;
   top: 5%;
-  left: 80%;
+  left: 78%;
 }
 
 #container .content .title {
   position: absolute;
-  top: 30%;
-  left: 20%;
+  top: 29%;
+  left: 22%;
   letter-spacing: 0.2rem;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 #container .content .heading {
   position: absolute;
-  top: 35%;
-  left: 20%;
+  top: 33%;
+  left: 22%;
   font-size: 90px;
   font-weight: 700;
 }
@@ -68,7 +69,7 @@ body {
 #container .content .para {
   position: absolute;
   top: 53%;
-  left: 20%;
+  left: 22.3%;
   font-weight: 300;
   width: 25%;
   line-height: 2rem;
@@ -76,8 +77,8 @@ body {
 
 hr {
   position: absolute;
-  top: 75%;
-  left: 20%;
+  top: 77.5%;
+  left: 22.3%;
   width: 3%;
   height: 2px;
   border: 1px solid black;
@@ -85,8 +86,8 @@ hr {
 
 #container .content .bottom_text {
   position: absolute;
-  top: 73.6%;
-  left: 24%;
+  top: 76%;
+  left: 26%;
   font-weight: bold;
 }
 
@@ -94,30 +95,30 @@ hr {
   height: 150px;
   width: 50px;
   position: absolute;
-  top: 50%;
-  left: 83%;
+  top: 45%;
+  left: 80%;
 }
 
 #container .pagination .div1 span i {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #container .pagination .div2 span i {
   color: #fcc60d;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #container .pagination .div3 span i {
   color: #fcc60d;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #container .pagination .div4 span i {
   color: #fcc60d;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #container .pagination .div5 span i {
   color: #fcc60d;
-  font-size: 14px;
+  font-size: 12px;
 }
