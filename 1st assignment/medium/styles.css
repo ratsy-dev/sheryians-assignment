@@ -24,7 +24,7 @@ body {
 
 #container {
   position: relative;
-  height: 100%;
+  height: 95%;
   width: 100%;
   border-radius: 10px;
   background: url("./images/banner.png");
@@ -37,87 +37,105 @@ body {
   transform: translate(-50%, -50%);
 }
 
-#container .upper_div img {
-  position: absolute;
-  left: 15%;
-}
-
 #container .upper_div span {
-  font-size: 35px;
+  font-size: 18px;
   position: absolute;
   top: 5%;
-  left: 80%;
+  left: 24%;
+  background-color: #f7f8fe;
+  border-radius: 5px;
+  padding: 8px;
 }
 
-#container .content .title {
+#container .upper_div span .ri-menu-line {
+  color: blue;
+}
+
+#container .upper_div img {
+  position: absolute;
+  bottom: 79%;
+  left: 41%;
+}
+
+#container .upper_div .sun {
+  font-size: 18px;
+  position: absolute;
+  top: 5%;
+  left: 73.5%;
+  background-color: #f7f8fe;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+/* #container .content .title {
   position: absolute;
   top: 30%;
   left: 20%;
   letter-spacing: 0.2rem;
   font-weight: 900;
-}
+} */
 
-#container .content .heading {
+/* #container .content .heading {
   position: absolute;
   top: 35%;
   left: 20%;
   font-size: 90px;
   font-weight: 700;
-}
+} */
 
-#container .content .para {
+/* #container .content .para {
   position: absolute;
   top: 53%;
   left: 20%;
   font-weight: 300;
   width: 25%;
   line-height: 2rem;
-}
+} */
 
-hr {
+/* hr {
   position: absolute;
   top: 75%;
   left: 20%;
   width: 3%;
   height: 2px;
   border: 1px solid black;
-}
+} */
 
-#container .content .bottom_text {
+/* #container .content .bottom_text {
   position: absolute;
   top: 73.6%;
   left: 24%;
   font-weight: bold;
-}
+} */
 
-#container .pagination {
+/* #container .pagination {
   height: 150px;
   width: 50px;
   position: absolute;
   top: 50%;
   left: 83%;
-}
+} */
 
-#container .pagination .div1 span i {
+/* #container .pagination .div1 span i {
   font-size: 14px;
-}
+} */
 
-#container .pagination .div2 span i {
+/* #container .pagination .div2 span i {
   color: #fcc60d;
   font-size: 14px;
-}
+} */
 
-#container .pagination .div3 span i {
+/* #container .pagination .div3 span i {
   color: #fcc60d;
   font-size: 14px;
-}
+} */
 
-#container .pagination .div4 span i {
+/* #container .pagination .div4 span i {
   color: #fcc60d;
   font-size: 14px;
-}
+} */
 
-#container .pagination .div5 span i {
+/* #container .pagination .div5 span i {
   color: #fcc60d;
   font-size: 14px;
-}
+} */
