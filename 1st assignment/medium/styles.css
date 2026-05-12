@@ -76,8 +76,8 @@ body {
 }
 
 #container .features .search {
-  width: 65%;
-  height: 50px;
+  width: 60%;
+  height: 40px;
   border-radius: 50px;
   box-shadow:
     0 4px 6px 0 rgba(0, 0, 0, 0.2),
@@ -128,6 +128,10 @@ input::placeholder {
   margin-right: 2rem;
 }
 
+#container .features .rightSide .filter span {
+  font-size: 14px;
+}
+
 #container .features .rightSide .filter span .ri-arrow-drop-down-line {
   font-size: 25px;
 }
@@ -165,7 +169,12 @@ input::placeholder {
 }
 
 #container .cards .card1 {
-  box-shadow: 0 5px 3px rgb(72, 158, 72);
+  box-shadow: 1px 5px 3px rgb(72, 158, 72);
+  border: 1px solid #ccc;
+  background-image: url("./images/Meowscarada.png");
+  background-position: 50% 30%;
+  background-size: auto 70%;
+  background-repeat: no-repeat;
 }
 
 #container .cards .card1 .top {
@@ -183,9 +192,10 @@ input::placeholder {
 }
 
 #container .cards .card1 .middle {
-  padding-left: 0.6rem;
-  padding-top: 1rem;
+  height: 10%;
+  padding: 0.4rem 1rem;
   font-weight: bold;
+  margin-top: 15.5rem;
 }
 
 #container .cards .card1 .bottom {
@@ -193,7 +203,7 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.2rem 0.6rem;
+  padding: 0.4rem 1rem;
 }
 
 #container .cards .card1 .bottom .type-badge {
@@ -217,7 +227,12 @@ input::placeholder {
 }
 
 #container .cards .card2 {
-  box-shadow: 0 5px 3px gray;
+  box-shadow: 1px 5px 3px gray;
+  border: 1px solid #ccc;
+  background-image: url("./images/Pawniard.png");
+  background-position: 50% 30%;
+  background-size: auto 70%;
+  background-repeat: no-repeat;
 }
 
 #container .cards .card2 .top {
@@ -235,9 +250,10 @@ input::placeholder {
 }
 
 #container .cards .card2 .middle {
-  padding-left: 0.6rem;
-  padding-top: 1rem;
+  height: 10%;
+  padding: 0.4rem 1rem;
   font-weight: bold;
+  margin-top: 15.5rem;
 }
 
 #container .cards .card2 .bottom {
@@ -245,7 +261,7 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.2rem 0.6rem;
+  padding: 0.4rem 1rem;
 }
 
 #container .cards .card2 .bottom .type-badge {
@@ -269,7 +285,12 @@ input::placeholder {
 }
 
 #container .cards .card3 {
-  box-shadow: 0 5px 3px rgb(170, 102, 102);
+  box-shadow: 1px 5px 3px rgb(170, 102, 102);
+  border: 1px solid #ccc;
+  background-image: url("./images/Houndoom.png");
+  background-position: 50% 30%;
+  background-size: auto 70%;
+  background-repeat: no-repeat;
 }
 
 #container .cards .card3 .top {
@@ -287,9 +308,10 @@ input::placeholder {
 }
 
 #container .cards .card3 .middle {
+  height: 10%;
   padding-left: 0.6rem;
-  padding-top: 1rem;
   font-weight: bold;
+  margin-top: 15.5rem;
 }
 
 #container .cards .card3 .bottom {
@@ -297,7 +319,7 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.2rem 0.6rem;
+  padding: 0.4rem 1rem;
 }
 
 #container .cards .card3 .bottom .type-badge {
@@ -321,7 +343,12 @@ input::placeholder {
 }
 
 #container .cards .card4 {
-  box-shadow: 0 5px 3px rgb(73, 73, 143);
+  box-shadow: 1px 5px 3px rgb(73, 73, 143);
+  border: 1px solid #ccc;
+  background-image: url("./images/Inkay.png");
+  background-position: 50% 30%;
+  background-size: auto 70%;
+  background-repeat: no-repeat;
 }
 
 #container .cards .card4 .top {
@@ -339,17 +366,18 @@ input::placeholder {
 }
 
 #container .cards .card4 .middle {
-  padding-left: 0.6rem;
-  padding-top: 1rem;
+  height: 10%;
+  padding: 0.4rem 1rem;
   font-weight: bold;
+  margin-top: 15.5rem;
 }
 
 #container .cards .card4 .bottom {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.2rem 0.6rem;
-  width: 100%;
+  padding: 0.4rem 1rem;
 }
 
 #container .cards .card4 .bottom .type-badge {
