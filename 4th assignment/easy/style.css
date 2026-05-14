@@ -440,17 +440,17 @@ body {
 }
 
 #container .card.card10 .center .top {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 #container .card.card10 .center .bottom {
-  font-size: 6px;
+  font-size: 10px;
   font-weight: 500;
 }
 
 #container .card.card10 .right {
-  font-size: 16px;
+  font-size: 25px;
   align-self: flex-start;
   color: black;
 }
