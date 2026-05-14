@@ -25,14 +25,14 @@ body {
 }
 
 #container {
-  width: 90%;
+  width: 100%;
   min-height: 100vh;
   background: linear-gradient(#252525, #111111, #080808);
   margin: auto;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: auto;
-  gap: 0.5rem;
+  gap: 1rem;
   padding: 1rem;
 }
 
@@ -42,8 +42,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: inset 0 0 1px rgba(189, 184, 184, 0.5);
-  padding-left: 1rem;
+  box-shadow: inset 0 0 5px rgba(189, 184, 184, 0.5);
 }
 
 #container .card.card1 {
@@ -53,7 +52,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 1.5rem;
+  padding: 2rem;
 }
 
 #container .card.card1 .profile_start {
@@ -66,7 +66,7 @@ body {
 }
 
 #container .card.card1 .profile_start img {
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
 #container .card.card1 .profile_start .inner-profile {
@@ -77,23 +77,25 @@ body {
 }
 
 #container .card.card1 .profile_start .inner-profile p {
-  font-size: 8px;
+  font-size: 16px;
 }
 
 #container .card.card1 .profile_start .inner-profile span {
-  font-size: 5px;
+  font-size: 10px;
   color: gray;
 }
 
 #container .card.card1 .profile_desc p {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 500;
+  line-height: 1.7rem;
 }
 
 #container .card.card1 .profile_end p {
-  font-size: 7px;
+  font-size: 12px;
   font-weight: 500;
   color: gray;
+  line-height: 1.2rem;
 }
 
 #container .card.card2 {
@@ -102,6 +104,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 2rem;
 }
 
 #container .card.card3 {
@@ -110,14 +113,16 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 2rem;
 }
 
 #container .card.card4 {
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 0;
+  padding: 2rem;
+  gap: 0.5rem;
 }
 
 #container .card.card4 .icon {
@@ -125,7 +130,7 @@ body {
   padding: 0.4rem;
   background-color: #252525;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 30px;
   box-shadow: inset 0 0 1px rgba(189, 184, 184, 0.5);
 }
 
@@ -134,46 +139,184 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
 }
 
-#container .card.card5 .top p {
-  font-size: 8px;
+#container .card.card5 .top {
+  width: inherit;
+}
+
+#container .card.card5 .top .para1 {
+  font-size: 18px;
+  width: inherit;
   color: gray;
 }
 
-#container .card.card5 .top .para {
-  font-size: 8px;
-  margin-top: 0.5rem;
+#container .card.card5 .top .para2 {
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+#container .card.card5 .bottom {
+  width: inherit;
 }
 
 #container .card.card5 .bottom i {
-  font-size: 12px;
+  font-size: 25px;
   float: right;
+  padding: 0.5rem;
+  background-color: #252525;
+  border-radius: 20px;
 }
 
 #container .card.card6 {
   grid-row: span 2;
+  background-image: url("./images/img1.jpeg");
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
 }
 
 #container .card.card7 {
   grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+#container .card.card7 .top {
+  width: inherit;
+}
+
+#container .card.card7 .top .para1 {
+  font-size: 18px;
+  width: inherit;
+  color: gray;
+}
+
+#container .card.card7 .top .para2 {
+  font-size: 22px;
+  margin-top: 1rem;
+}
+
+#container .card.card7 .bottom {
+  width: inherit;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 0.8rem;
+}
+
+#container .card.card7 .bottom .icon {
+  border: 2px solid black;
+  padding: 0.4rem;
+  background-color: #252525;
+  border-radius: 10px;
+  font-size: 30px;
+  box-shadow: inset 0 0 1px rgba(189, 184, 184, 0.5);
 }
 
 #container .card.card8 {
   grid-row: span 2;
   grid-column: span 2;
+  background-image: url("./images/img4.jpeg");
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
 }
 
 #container .card.card9 {
+  background-image: url("./images/img5.png");
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  padding: 4rem;
 }
 
 #container .card.card10 {
   grid-row: span 3;
   grid-column: span 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  background-color: #000000;
+}
+
+#container .card.card10 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+#container .card.card10 .left .title p {
+  font-size: 32px;
+}
+
+#container .card.card10 .left .para p {
+  font-size: 18px;
+  color: gray;
+}
+
+#container .card.card10 .right {
+  width: 50%;
+  height: 100%;
+  background-image: url("./images/img6.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
 }
 
 #container .card.card11 {
   grid-row: span 3;
   grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+
+#container .card.card11 .top {
+  width: inherit;
+}
+
+#container .card.card11 .top .para1 {
+  font-size: 18px;
+  width: inherit;
+  color: gray;
+}
+
+#container .card.card11 .top .para2 {
+  font-size: 24px;
+  margin-top: 1rem;
+}
+
+#container .card.card11 .top .para3 {
+  font-size: 18px;
+  width: inherit;
+  color: gray;
+  margin-top: 1rem;
+}
+
+#container .card.card11 .bottom {
+  width: inherit;
+}
+
+#container .card.card11 .bottom i {
+  font-size: 25px;
+  float: right;
+  padding: 0.5rem;
+  background-color: #252525;
+  border-radius: 20px;
 }
