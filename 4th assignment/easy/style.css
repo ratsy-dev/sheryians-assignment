@@ -1,0 +1,457 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+
+#container {
+  width: 100%;
+  min-height: 100vh;
+  color: #fff;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 0.5rem;
+  background-color: black;
+  padding: 1rem;
+}
+
+#container .card {
+  border-radius: 10px;
+  background-color: #18181a;
+  overflow: hidden;
+}
+
+#container .card.card1 {
+  grid-row: span 2;
+  background-image: url("./images/img1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#container .card.card2 {
+  grid-row: span 2;
+  background-image: url("./images/img2.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#container .card.card3 {
+  grid-row: span 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#container .card.card3 .list-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#container .card.card3 .list-top .list1 {
+  font-size: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+}
+
+#container .card.card3 .list-top .list2 {
+  font-size: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+}
+
+#container .card.card3 .list-top .list3 {
+  font-size: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+}
+
+#container .card.card3 .list-top .list4 {
+  font-size: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  background-color: #6b6767;
+  border-radius: 10px;
+  padding: 0.7rem 1rem;
+}
+
+#container .card.card3 .list4 .left span i {
+  color: #c4ff00;
+}
+
+#container .card.card3 .list4 .right span i {
+  margin-left: 1rem;
+  font-size: 12px;
+  color: #a155f3;
+}
+
+#container .card.card3 .list-top .list5 {
+  font-size: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+}
+
+#container .card.card3 .list-top .list6 {
+  font-size: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+}
+
+#container .card.card3 .list1 .left span .ri-gallery-view-2 {
+  color: #fff;
+}
+
+#container .card.card3 hr {
+  width: 80%;
+  margin: auto;
+  border: none;
+  border-top: 0.1px solid #e5dfdf;
+}
+
+#container .card.card3 .list-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#container .card.card3 .list-bottom .list7 {
+  font-size: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+}
+
+#container .card.card4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to right, #a155f3, #793dd0);
+  font-size: 8px;
+}
+#container .card.card4 .left {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+#container .card.card4 .left i {
+  font-size: 18px;
+}
+
+#container .card.card4 .left span {
+  font-size: 5px;
+}
+
+#container .card.card4 hr {
+  height: 1.4rem;
+  border: 0.1px solid #ccc;
+}
+
+#container .card.card4 .right {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+#container .card.card4 .right i {
+  font-size: 18px;
+}
+
+#container .card.card4 .right span {
+  font-size: 5px;
+}
+
+#container .card.card5 {
+  grid-row: span 3;
+  background-image: url("./images/img3.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#container .card.card6 {
+  grid-row: span 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #d6f157;
+}
+
+#container .card.card6 .card_top {
+  display: flex;
+  flex-direction: column;
+}
+
+#container .card.card6 .card-top h1 {
+  text-transform: uppercase;
+}
+
+#container .card.card6 .card-top p {
+  text-transform: uppercase;
+  color: #9e58e3;
+  font-size: 12px;
+  margin-top: 0.3rem;
+}
+
+#container .card.card6 hr {
+  width: 80%;
+  border: 0.1px solid #cccc;
+}
+
+#container .card.card6 .card-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+#container .card.card6 .card-bottom .card-top-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#container .card.card6 .card-bottom .card-top-bottom p {
+  font-size: 10px;
+}
+
+#container .card.card7 {
+  grid-row: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+}
+
+#container .card.card7 .top {
+  width: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+#container .card.card7 .top img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#container .card.card7 .top p {
+  color: #ccc;
+  font-size: 6px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+#container .card.card7 .middle {
+  width: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+#container .card.card7 .middle p {
+  font-size: 10px;
+  text-transform: uppercase;
+  line-height: 15px;
+}
+
+#container .card.card7 .bottom {
+  width: inherit;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+#container .card.card7 .bottom p {
+  color: #ccc;
+  font-size: 6px;
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+#container .card.card8 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#container .card.card8 .icon {
+  width: 100px;
+  height: 40px;
+  background-image: url("./images/img4.png");
+  background-size: 250%;
+  background-position: center;
+}
+
+#container .card.card9 {
+  grid-row: span 2;
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  color: black;
+  padding: 0.3rem;
+}
+
+#container .card.card9 .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+
+  gap: 2rem;
+}
+
+#container .card.card9 .left .top h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#container .card.card9 .left .bottom p {
+  font-weight: 600;
+  color: slategray;
+  font-size: 10px;
+}
+
+#container .card.card9 .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+}
+
+#container .card.card9 .right .top h1 {
+  font-size: 40px;
+}
+
+#container .card.card9 .right .top h1 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container .card.card9 .right .top span i {
+  font-size: 14px;
+  color: #c4ff00;
+}
+
+#container .card.card9 .right .top h1 span .half-star {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 12px;
+}
+
+#container .card.card9 .right .top h1 span .half-star i {
+  color: #c4ff00;
+}
+
+#container .card.card9 .right .bottom button {
+  background-color: #8c47e3;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+#container .card.card9 .right .bottom button span i {
+  font-size: 20px;
+}
+
+#container .card.card10 {
+  background-color: #d7f259;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem;
+}
+
+#container .card.card10 .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: black;
+  gap: 0.3rem;
+}
+
+#container .card.card10 .center .top {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#container .card.card10 .center .bottom {
+  font-size: 6px;
+  font-weight: 500;
+}
+
+#container .card.card10 .right {
+  font-size: 16px;
+  align-self: flex-start;
+  color: black;
+}
